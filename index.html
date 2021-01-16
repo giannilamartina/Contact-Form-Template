@@ -24,13 +24,20 @@
                     <div class="fcf-input-group">
                         <input type="email" id="Email" name="Email" class="fcf-form-control" required>
                 </div>
-            </div>
+                </div>
             <div class="fcf-form-group">
                 <label for="Message" class="fcf-label">Your Message</label>
                 <div class="fcf-input-group">
                     <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
                 </div>
             </div>
+                <h3 class="fcf-h3">Reason for Contact</h3>
+                <div class="fcf-form-group">
+                    <input type="radio" id="business" name="contact-reason" value="business">
+                    <label for="business">Business</label><br>
+                    <input type="radio" id="personal" name="contact-reason" value="personal">
+                    <label for="personal">Personal</label><br>
+                </div>
             <div class="fcf-form-group">
                 <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
             </div>

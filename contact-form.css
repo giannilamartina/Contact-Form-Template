@@ -4,18 +4,26 @@
 
 .fcf-body {
     margin: 0;
-    font-family: Futura, sans-serif;
+    font-family: Verdana, sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     
-    text-align: left;
-    background-color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: #e8e8e8;
     padding: 30px;
     padding-bottom: 10px;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid #222831;
     border-radius: 0.25rem;
     max-width: 100%;
+}
+.fcf-h3 {
+    color: #222831;
+}
+.fcf-h3:hover {
+    color: #f05454;
+    transition: color .25s;
+    cursor: default;
 }
 
 .fcf-form-group {
@@ -41,10 +49,10 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #495057;
+    color: #222831;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     outline: none;
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -59,7 +67,7 @@ select.fcf-form-control[size], select.fcf-form-control[multiple] {
 }
 
 textarea.fcf-form-control {
-    font-family: -apple-system, Arial, sans-serif;
+    font-family: -apple-system, Verdana, sans-serif;
     height: auto;
 }
 
@@ -71,23 +79,23 @@ label.fcf-label {
 .fcf-credit {
     padding-top: 10px;
     font-size: 0.9rem;
-    color: #545b62;
+    color: #222831;
 }
 
 .fcf-credit a {
-    color: #545b62;
+    color: #222831;
     text-decoration: underline;
 }
 
 .fcf-credit a:hover {
-    color: #0056b3;
+    color: #f05454;
     text-decoration: underline;
 }
 
 .fcf-btn {
     display: inline-block;
     font-weight: 400;
-    color: #212529;
+    color: #222831;
     text-align: center;
     vertical-align: middle;
     cursor: pointer;
@@ -122,14 +130,14 @@ label.fcf-label {
 
 .fcf-btn-primary {
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: #3282b8;
+    border-color: #3282b8;
 }
 
 .fcf-btn-primary:hover {
-    color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc;
+    color: #f05454;
+    background-color: #0f4c75;
+    border-color: #0f4c75;
 }
 
 .fcf-btn-primary:focus, .fcf-btn-primary.focus {
